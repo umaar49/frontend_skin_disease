@@ -164,7 +164,7 @@ function App() {
 
       {/* Chat UI */}
       <div className={`fixed bottom-24 right-8 z-50 transition-all duration-500 ${isChatOpen ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-10 opacity-0 scale-95 pointer-events-none'}`}>
-        <div className="w-[400px] h-[550px] bg-slate-900 border border-slate-700/50 rounded-[2.5rem] shadow-2xl flex flex-col overflow-hidden backdrop-blur-2xl">
+        <div className="w-[350px] h-[500px] bg-slate-900 border border-slate-700/50 rounded-[2.5rem] shadow-2xl flex flex-col overflow-hidden backdrop-blur-2xl">
           <div className="p-6 bg-gradient-to-r from-slate-800 to-slate-900 border-b border-slate-700/50 flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-lg"><svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg></div>
